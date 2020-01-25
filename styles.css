@@ -1,12 +1,93 @@
 body {
     color: #FF0000;
-    background-color: #EEEEEE;
+    background-color: rgb(5, 0, 0);
+    font-size: 15px;
 }
 
-h1 {
-    font-size: 36px;
+h1, p {
+    background-color: rgb(61, 61, 61);
+    font-size: 60px;
+    padding: 20px 100px 20px 100px;
+    border: 1px solid #FF0000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hometown {
+    color: #7E8184;
+    font-style: italic;
+}
+
+.button {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+.call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;
+}
+
+#button-3 {
+    color: #5D6063;
+}
+
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: greenyellow;
+}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+
+em, strong {
+    background-color: rgb(62, 62, 63);
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(97, 97, 97);
+}
+
+.control {
+    float: left;
+}
+
+a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 0, 0);
 }
